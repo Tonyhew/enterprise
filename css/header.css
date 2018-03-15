@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-size: 12px;
+	font-family: "宋体";
+	background: #fff;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}
+
+.over {
+	overflow: hidden;
+	zoom: 1;
+}
+
+
+/*   header Start   */
+
+#top {
+	/*width: 1200px;*/
+	background-color: #f2f2f2;
+}
+
+.topcon {
+	width: 1060px;
+	height: 12px;
+	margin: 0 auto;
+	padding: 12px 0;
+	padding-top: 12px;
+}
+
+.topleft {
+	float: left;
+}
+
+.active {
+	float: left;
+	height: 18px;
+	line-height: 18px;
+	margin-right: 9px;
+	margin-top: -1px;
+}
+
+.topleft a img {
+	width: 16px;
+	height: 16px;
+	margin-top: -1px;
+}
+
+.topright {
+	/*float: right;*/
+	height: 18px;
+	display: inline-block;
+	line-height: 18px;
+	padding-left: 600px;
+}
+
+.topright a {
+	float: left;
+	margin-right: 10px;
+	font-family: "微软雅黑";
+}
+
+.topright a:hover{
+	color: #F15500;
+}
+
+.topright .mylove {
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 3px;
+	/*margin-top: 1px;*/
+}
+
+.topright .service {
+	float: left;
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	/*margin-top: -1px;*/
+	margin-right: 3px;
+}
+
+.topright .tel {
+	float: left;
+	display: inline-block;
+	width: 16px;
+	height: 14px;
+	text-align: center;
+	/*margin-top: 1px;*/
+	margin-right: 1px;
+}
+
+
+/*  header End  */
+
+.header {
+	width: 1060px;
+	margin: 0 auto;
+}
+
+.logo {
+	float: left;
+	width: 180px;
+	height: 70px;
+	margin-top: 40px;
+	display: inline;
+}
+
+
+/*  nav start  */
+
+.nav {
+	margin-top: -40px;
+	background-color: #0055a2;
+	width: 863px;
+	float: right;
+	margin-left: 25px;
+}
+
+.navcon {
+	width: 863px;
+	height: 50px;
+}
+
+.navcon li {
+	float: left;
+	padding: 0 25px;
+	height: 50px;
+	line-height: 50px;
+	text-decoration: none;
+	list-style: none;
+}
+
+.navcon li:first-child{
+	margin-left: 0px;
+}
+
+.navcon li a {
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 20px;
+	float: left;
+	margin-left: 10px;
+	padding-right: 10px;
+}
+
+.navcon li.current{
+	 background-color:#F15500;
+}
+.navcon li:hover{
+	background-color:#F15500;
+}
+/*  nav End  */

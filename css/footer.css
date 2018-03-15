@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	text-decoration: none;
+	padding: 0;
+}
+
+.over {
+	zoom: 1;
+	clear: both;
+}
+
+.cfooter {
+	width: 100%;
+	height: 331px;
+	margin: 0 auto;
+}
+
+.footer-content{
+	background-color: #aaaaaa;
+	margin: 0 auto;
+	padding-left: 16%;
+	padding: 25px;
+	color: #FFFFFF;
+}
+
+.footer-content dl{
+	display: inline-block;
+	padding-left: 281px;
+}
+
+.footer-content dl dt{
+	font-weight: bold;
+	font-family: "微软雅黑";
+	font-size: 16px;
+}
+
+.footer-content dl dd{
+	color: #1D7AD9;
+	font-size: 12px;
+	padding: 5px;
+	font-family: "微软雅黑";
+}
+
+.footer-content dl a{
+	color: #FFFFFF;
+}
+
+.copyright {
+	width: 100%;
+	background-color: #535353;
+	text-align: center;
+	color: white;
+	padding: 51px;
+}
+
+.copyright a{
+	color: white;
+	text-align: center;
+}
+
+.copyright b{
+	padding: 5px;
+}
+
+
+.copyright p{
+	margin-top: 10px;
+}
+
